@@ -26,7 +26,7 @@ Before running this application, make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone <git@github.com:urg0/invent-analytics-case-study-frontend.git>
+   git clone git@github.com:urg0/invent-analytics-case-study-frontend.git
    cd my-app
    ```
 
@@ -133,19 +133,3 @@ yarn lint
 ├── vite.config.ts    # Vite configuration
 └── yarn.lock         # Yarn lock file
 ```
-
-## 🔧 Configuration
-
-### TypeScript
-
-TypeScript configuration can be found in `tsconfig.json`. The project uses strict mode and includes paths configuration for absolute imports.
-
-### TailwindCSS
-
-TailwindCSS configuration can be found in `tailwind.config.js`. The project includes custom theme extensions and plugin configurations.
-
-## 📝 Notes
-
-- This project uses [Radix UI](https://www.radix-ui.com/) primitives for accessible component development
-- State management is handled through React Query for server state and React's built-in hooks for local state
-- The project follows a component-first architecture with modular, reusable components
