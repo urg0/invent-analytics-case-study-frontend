@@ -2,6 +2,8 @@
 
 A modern, type-safe React application built with Vite, TypeScript, and TailwindCSS.
 
+*NOTE: Please start with the [Backend](https://github.com/urg0/invent-analytics-case-study-backend) set-up first and make sure that backend and database is running without any problem
+
 ## 🚀 Features
 
 - ⚡️ **Lightning Fast HMR** with [Vite](https://vitejs.dev/)
@@ -24,7 +26,7 @@ Before running this application, make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone <git@github.com:urg0/invent-analytics-case-study-frontend.git>
    cd my-app
    ```
 
